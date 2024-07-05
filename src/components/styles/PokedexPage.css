@@ -1,0 +1,146 @@
+
+.two_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em 1em;
+
+}
+.two_welcome {
+     font-size: 1em;
+}
+
+.two_welcom_i {
+    color: #FE1936;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.two_form_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 5em;
+}
+.two_form {
+    width: 60%;
+    max-width: 40em;
+    height: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.two_input {
+    width: 60%;
+   height: 99%;
+   padding-left: 1em;
+   font-size: 0.9em;
+   font-weight: 150;
+   border: solid gray;
+   border-color: #faf7f7;
+  
+   box-shadow: 2px 0.2px 0px 0px rgb(48, 48, 47);
+}
+.two_btn {
+    width: 40%;
+    height: 99%;
+    background-color: #FE1936;
+    color: #FFFFFF;
+    border-radius: 0 0.3em 0.3em 0;
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 13px 10px #FE1936;
+        background-color: rgb(183, 174, 171);
+        color: black;
+        filter:brightness(1.2); 
+    }
+}
+
+.quantity_form {
+    width: 18em;
+   
+    max-width: 40em;
+    height: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.two_form_select {
+    width: 100%;
+    max-width: 20em;
+    display: flex;
+    justify-content: center;
+}
+.two_select {
+    width: 100%;
+    height: 2.5em;
+    font-size: 1em; 
+    border-color: rgba(235, 2, 2, 0.2);
+    padding-left: 1em;
+    color: #3338;
+        
+}
+
+.two_option {
+  
+    background-color: #848080;
+    color: white;
+    font-size: 1em;
+    text-transform: capitalize; 
+     
+}
+
+.pagination_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.pagination_padre {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pagination_btn {
+    border-radius: 1em;
+    background-color: rgb(84, 82, 82);
+    color: white;
+    
+}
+.pagination_title {
+    width: 5em;
+    text-align: center;
+    color: #ee0909;
+    font-size: 1.3em;
+    
+}
+
+.two_container_card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 5em;
+    
+}
+.two_title_error {
+    background-color: #5553;
+    border-radius: 0.1em;
+    padding: 0.5em;
+    text-align: center;
+    
+}
+
